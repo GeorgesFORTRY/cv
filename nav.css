@@ -1,0 +1,66 @@
+
+.item img {
+    max-width: 20px;
+ }
+ 
+ nav {
+     display: flex;
+     justify-content: space-between;
+     background-color: #203572;
+     padding: 20px 20px 30px 30px;
+ }
+ 
+ .logo img{
+     height: 4vh;
+     width: auto;
+ 
+ }
+ .logo-name a {
+     display: flex;
+     justify-content: left;
+     align-items: flex-end;
+     color: #3fc7df;
+     text-decoration: none;
+ }
+ 
+ .name {
+     font-size: 25px;
+     font-family: 'Advent Pro', sans-serif;
+ 
+ }
+ 
+ 
+ 
+ ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #203572;
+ 
+ }
+ 
+ li {
+    float: right;
+     
+ }
+ 
+ li a {
+     display: block;
+     color: #3fc7df;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 25px;
+     font-family: 'Advent Pro', sans-serif;
+ }
+ 
+ a:hover {
+     color:darkred;
+     font-weight: bold;
+ }
+ a:active {
+     color:gold;
+ }
+ 
+ 

@@ -1,0 +1,63 @@
+section {    
+    display: flex;
+    justify-content: center;
+
+}
+
+.image {
+    position:absolute;
+    z-index:1;
+}
+
+.titre {
+    position:absolute;
+    padding-top:150px; 
+    text-align: center;
+    z-index:2;
+    font-family: 'Advent Pro', sans-serif;
+   
+    color:#3fc7df;
+    transition: 3s;
+    
+}
+
+
+h1 {
+    font-size: 100px;
+    transition: 1s;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 90px;
+    padding-top: 20px;
+    transition: 2s;
+}
+
+h3 {
+    font-size: 70px;
+    transition: 3s;
+}
+
+.image img {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+h1:hover {
+    color:darkred;
+}
+h2:hover {
+    color:gold;
+}
+
+h3 p:first-child:hover{
+    color:deepskyblue;
+    transition: 2s;
+}
+h3 p:last-child:hover {
+    color:darkgreen;
+    transition: 2s;
+}

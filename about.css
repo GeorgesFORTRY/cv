@@ -1,0 +1,128 @@
+section {
+        display: flex;    
+        justify-content: space-around;
+        padding: 80px;
+        border: 80px solid #203572;
+        font-family: 'Advent Pro', sans-serif;
+        color:#203572;
+        font-size: 45px;
+      
+           
+}
+
+.texte {
+    margin: 20px;
+    border: 2px solid darkred;
+    width: 700px;
+    
+}
+
+.photo {
+    height: 400px;
+    width: auto;
+    font-size: 20px;
+    
+}
+
+.photo img{
+    height: 100%;
+    padding-top: 150px;
+    padding-left: 50px;
+    transform: scale(0.8);
+    transition: 2s;
+}
+
+.profil {
+    margin: 20px;
+    
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+
+}
+
+
+p {
+    text-align: justify;
+    width: 650px;
+    font-size: 19px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.qualité span {
+    display: flex;
+    justify-content: center;
+    padding:3px;
+    font-size: 20px;
+}
+
+.qualites {
+    display: grid;
+
+}
+
+.ecoute {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.rigueur{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+
+}
+
+.autonomie{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.fiabilite{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.reflechi{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.esprit-equipe{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.observateur{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.analyse{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+
+span:hover {
+    text-transform: uppercase;
+    transform: 3s;
+}
+
+.centre-interet {
+    padding: 20px;
+}
+
+.qualité{
+    padding: 20px;
+}
+
+.photo img:hover{
+    transform: scale(1);
+
+}
